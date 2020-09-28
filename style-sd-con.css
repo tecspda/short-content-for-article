@@ -1,0 +1,87 @@
+#sd-con-container{
+	background:#f9f9f9;
+	border:1px solid #aaa;
+	border-radius:4px;
+	box-shadow:0 1px 1px rgba(0,0,0,.05);
+	display:table;
+	margin-bottom:1em;
+	padding:10px;
+	position:relative;
+	width:auto;
+}
+
+.sd-con-title{
+	font-weight: 400;
+}
+
+.sd-con-page-ul a{
+	text-decoration: none;
+}
+
+.sd-con-page-ul a:hover{
+	border-bottom: 1px solid gray;
+}
+
+.sd-con-title-toggle{
+	cursor: pointer;
+	float:right !important;
+	margin-left:10px;
+	margin-top: -30px;
+}
+
+.sd-con-title-toggle:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.sd-con-list-hide{
+	display: none;
+}
+
+.sd-con-btn{
+	display:inline-block;
+	margin-bottom:0;
+	padding: 5px 7px 6px 7px;
+	line-height:1.428571429;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid transparent;
+	border-radius:4px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none}
+
+.sd-con-btn:focus, .sd-con-btn:hover{
+	color:#333;text-decoration:none
+}
+.sd-con-btn.active,.sd-con-btn:active{
+	background-image:none;
+	outline:0;
+	box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.sd-con-btn-default{
+	text-shadow:0 -1px 0 rgba(0,0,0,.2);
+	box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075)
+}
+.sd-con-btn-default:active{
+	box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+}
+.btn.active,.sd-con-btn:active{
+	background-image:none;
+}
+.sd-con-btn-default{
+	text-shadow:0 1px 0 #fff;
+	background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+	background-repeat:repeat-x;
+	border-color:#dbdbdb;
+	border-color:#ccc
+}
+.sd-con-btn-default:focus, .sd-con-btn-default:hover{
+	background-color:#e0e0e0;
+	background-position:0 -15px
+}
+.sd-con-btn-default.active, .sd-con-btn-default:active{
+	background-color:#e0e0e0;
+	border-color:#dbdbdb
+}
