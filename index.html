@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Content items example. Ver. 1.0</title>
+</head>
+
+<body>
+  <h1>Content items example. Ver. 1.0</h1>
+  
+  <div id="sd-con-container" style="display: block;">
+    <div class="sd-con-title-container">
+      <p class="sd-con-title">Содержание:</p> 
+      <span class="sd-con-title-toggle sd-con-btn sd-con-btn-default">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="13.14" viewBox="0 0 33.5 22"><defs><style>.a{fill:none;stroke:#444;stroke-width:4px;}.b{fill:#444;}</style></defs><g transform="translate(-386.5 -343.5)"><line class="a" x2="23" transform="translate(386.5 345.5)"/><line class="a" x2="23" transform="translate(386.5 351.5)"/><line class="a" x2="23" transform="translate(386.5 357.5)"/><line class="a" x2="23" transform="translate(386.5 363.5)"/><path class="b" d="M4,0,8,6H0Z" transform="translate(412 348)"/><path class="b" d="M4,0,8,6H0Z" transform="translate(420 362) rotate(180)"/></g></svg>
+      </span>
+    </div>
+    <nav id="sd-con-nav">
+      <ol class="sd-con-list">
+        <li class="sd-con-page-ul"> <a class="sd-con-link" href="#" title="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>          </li>
+        <li class="sd-con-page-ul"> <a class="sd-con-link sd-con-heading-3" href="#" title="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>          </li>
+        <li class="sd-con-page-ul"> <a class="sd-con-link1" href="#" title="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>          </li>
+      </ol>
+    </nav>
+  </div>
+  <script>
+    $(function() {
+      $('.sd-con-title-toggle').click(function() {
+      $('#sd-con-nav').fadeToggle(1000);
+      });
+    });
+  </script>
+</body>
+
+</html>
